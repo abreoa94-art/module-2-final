@@ -1320,6 +1320,10 @@ footer{
         font-size: 14px;
     }
 
+    .header__row{
+        flex-direction: column;
+    }
+
     #quality .row
     #values .row {
         flex-direction: column-reverse;
@@ -1456,6 +1460,7 @@ footer{
     }
 
     .header__customers--title{
+        flex-direction: column;
         font-size: 14px;
         letter-spacing: 0.05rem;
     }
