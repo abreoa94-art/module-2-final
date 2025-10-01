@@ -1333,6 +1333,10 @@ footer{
         text-align: center;
     }
 
+    .header__row{
+        display: flex;
+    }
+
     .quality__description,
     .quality__img--wrapper,
     .steps__description,
@@ -1429,6 +1433,10 @@ footer{
     .header__email{
         flex-direction: column;
         height: auto;
+    }
+
+    .header__row{
+        display: flex;
     }
 
     .header__email--input{
